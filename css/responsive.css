@@ -1,0 +1,604 @@
+/* MediaQuerry Max Width 1438 PX */
+
+@media only screen and (max-width: 1438px) {
+  .bottom-box {
+    padding: 13px 8px;
+  }
+  .main-banner-section h1 {
+    font-size: 36px;
+  }
+  .another-main-bottom-box {
+    padding: 20px 7px 0px 7px;
+  }
+  .pricing-card-heading {
+    width: 335px;
+  }
+  .pricing-card-heading h5 {
+    font-size: 21px;
+  }
+  .pricing-card-heading {
+    margin-left: -12px;
+  }
+  .pricing-card {
+    padding: 25px 10px;
+  }
+  .pricing-btn a {
+    padding: 12px 70px;
+  }
+  .design-white-row-box {
+    padding: 15px 20px;
+  }
+  .design-white-row-box img {
+    width: 59px;
+    height: 40px;
+    margin-top: 8px;
+    margin-right: 15px;
+  }
+  .design-white-row .design-white-row-box:nth-child(2) img {
+    width: 27px;
+    height: 44px;
+    margin-top: 6px;
+  }
+  .design-white-row .design-white-row-box:nth-child(3) img {
+    width: 50px;
+    height: 48px;
+    margin-top: 6px;
+  }
+  .design-white-row .design-white-row-box:nth-child(3) {
+    width: 250px;
+  }
+  .design-white-row .design-white-row-box:nth-child(4) {
+    width: 210px;
+  }
+  .design-white-row .design-white-row-box:nth-child(2) {
+    width: 300px;
+  }
+  .design-white-row .design-white-row-box:nth-child(1) {
+    width: 350px;
+  }
+  .enterprise-price-part h3 {
+    font-size: 33px;
+  }
+  .enterprise-price-part h3::before {
+    width: 111px;
+    top: 17px;
+  }
+  .enterprise-price-part h1 {
+    font-size: 49px;
+  }
+  .enterprise-logo-part ul li {
+    font-size: 13px;
+  }
+  .enterprise-stationary-part ul li {
+    font-size: 13px;
+  }
+  .enterprise-social-media-part ul li {
+    font-size: 13px;
+  }
+  .enterprise-social-media-part h2 {
+    font-size: 24px;
+  }
+  .enterprise-stationary-part h2 {
+    font-size: 28px;
+  }
+  .project-section-heading h1::before {
+    left: 525px;
+  }
+  .packages-heading h1::before {
+    left: 536px;
+  }
+  .testimonial-heading h1::before {
+    left: 530px;
+  }
+  .logo-design-section h1 {
+    font-size: 36px;
+  }
+  .logo-design-section {
+    padding: 100px 0px 55px 0px;
+  }
+  .mt-60 img {
+    margin-top: 60px;
+  }
+  .pb-20-pt-65 {
+    padding-top: 65px;
+    padding-bottom: 20px;
+  }
+  .web-design-section h1 {
+    font-size: 38px;
+  }
+  .pl-0 {
+    padding-left: 0px !important;
+  }
+  .enterprise-price-img img {
+    width: 255px;
+  }
+  .branding-design-section h1 {
+    font-size: 40px;
+  }
+  section.packages-section .tab {
+    padding-left: 0px;
+    margin-left: 128px;
+  }
+  .app-design-section h1 {
+    font-size: 40px;
+  }
+  .pt-35 {
+    padding-top: 35px;
+  }
+  .content-writing-section h1 {
+    font-size: 40px;
+  }
+  .content-writing-section .form-dropdown {
+    width: 315px;
+  }
+  .contact-heading h1::before {
+    left: 330px;
+  }
+  .logo-design-section .form-dropdown {
+    width: 320px;
+  }
+  .main-form {
+    width: 320px;
+    margin-top: -53px;
+  }
+  .main-banner-section .form-dropdown {
+    width: 320px;
+  }
+  .form-inner p {
+    font-size: 14px;
+  }
+  .wsmenu > .wsmenu-list > li > a {
+    margin: 0px 14px 0px 10px;
+  }
+}
+
+/* MediaQuerry Max Width 1438 PX */
+
+/* MediaQuerry Max Width 991 PX */
+
+@media only screen and (max-width: 991px) {
+  .mobile-logo {
+    width: 200px;
+  }
+  .main-baner-bottom-section ul {
+    display: block;
+  }
+  .bottom-box:nth-child(1) {
+    border-left: none;
+  }
+  .bottom-box {
+    border-right: none;
+    border-bottom: solid 1px #62788a;
+    /* justify-content: center; */
+  }
+  .another-main-boxes {
+    display: block;
+  }
+  .another-main-bottom-box {
+    width: auto;
+  }
+  .another-main-bottom-box:nth-child(1) {
+    width: auto;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+  }
+  .another-main-bottom-box {
+    border-bottom: solid 1px #62788a;
+  }
+  section.packages-section .tab {
+    margin-left: 0px;
+  }
+  .packages-section .tab .tablinks:last-child {
+    margin-top: 15px;
+  }
+  .pricing-card-heading {
+    width: 432px;
+  }
+  .pricing-card {
+    margin: 15px 120px;
+  }
+  .design-feature-row {
+    display: block;
+  }
+  .design-box {
+    border: solid 2px #c3c3c3;
+    border-right: none;
+    border-left: none;
+  }
+  .design-white-row {
+    display: block;
+  }
+  .design-white-row .design-white-row-box:nth-child(1) {
+    width: auto;
+    justify-content: center;
+  }
+  .design-white-row .design-white-row-box:nth-child(2) {
+    width: auto;
+    justify-content: center;
+  }
+  .design-white-row .design-white-row-box:nth-child(3) {
+    width: auto;
+    justify-content: center;
+  }
+  .design-white-row .design-white-row-box:nth-child(4) {
+    width: auto;
+    justify-content: center;
+  }
+  .design-white-row-box::after {
+    display: none;
+  }
+  .design-white-row-box {
+    border-bottom: solid 2px #62788a;
+  }
+  .enterprise-packages-section::before {
+    display: none;
+  }
+  .enterprise-price-content {
+    padding-bottom: 10px;
+  }
+  .enterprise-logo-part {
+    padding: 15px 10px 0px 10px;
+  }
+  .enterprise-logo-part {
+    padding: 15px 10px 0px 10px;
+  }
+  .enterprise-stationary-part {
+    padding: 15px 10px 0px 10px;
+  }
+  .enterprise-social-media-part {
+    padding: 15px 10px 0px 10px;
+  }
+  .enterprise-price-part {
+    margin-top: -30px;
+  }
+  .enterprise-price-btn {
+    margin-top: -65px;
+    margin-left: -225px;
+  }
+  .footer-link {
+    margin-top: 45px;
+  }
+  .footer-copyright-row img {
+    margin-right: -25px;
+  }
+  .choose-us-box {
+    margin-bottom: 35px;
+  }
+  .packages-section {
+    padding-top: 35px;
+  }
+  .testimonial-heading h1::before {
+    left: 325px;
+  }
+  .content-packages-heading h1::before {
+    top: 125px;
+    left: 315px;
+  }
+  .project-section-heading h1::before {
+    left: 325px;
+    top: 130px;
+  }
+  .packages-heading h1::before {
+    left: 325px;
+    top: 245px;
+  }
+  .testi-card p {
+    margin-top: 15px;
+  }
+}
+
+/* MediaQuerry Max Width 991 PX */
+
+/* MediaQuerry Max Width 786 PX */
+
+@media only screen and (max-width: 786px) {
+  section.packages-section .tab button {
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding: 12px 27px;
+  }
+  .packages-heading h1::before {
+    left: 160px;
+  }
+  section.packages-section .tab {
+    margin-left: 2px;
+  }
+  .packages-heading h1 {
+    font-size: 40px;
+    padding: 0px;
+  }
+  .packages-heading h1::before {
+    top: 195px;
+  }
+  .project-section-heading h1 {
+    font-size: 45px;
+  }
+  .logo-about-us-content {
+    padding-right: 0px;
+  }
+  .main-banner-btn a {
+    padding: 16px 15px;
+    font-size: 21px;
+  }
+  .main-banner-btn a img {
+    margin-left: 5px;
+    width: 100px;
+  }
+  .logo-design-section ul {
+    display: block;
+    margin-bottom: 0px;
+    padding-left: 30px;
+  }
+  .header-before {
+    display: none;
+  }
+  .mobile-logo {
+    width: 200px;
+  }
+  .logo-design-section {
+    padding: 120px 0px 55px 0px;
+  }
+  .main-baner-bottom-section ul {
+    display: block;
+  }
+  .bottom-box:nth-child(1) {
+    border-left: none;
+  }
+  .bottom-box {
+    border-bottom: solid 1px #62788a;
+    border-right: none;
+  }
+  .another-main-boxes {
+    display: block;
+  }
+  .another-main-bottom-box:nth-child(1) {
+    margin-left: 0px;
+    border-left: none;
+    border-right: none;
+  }
+  .another-main-bottom-box {
+    width: auto;
+    border-bottom: solid 1px #333;
+  }
+  .logo-design-section h1 {
+    margin-bottom: 30px;
+  }
+  .design-feature-row {
+    display: block;
+  }
+  .design-box {
+    border-right: none;
+    border-bottom: solid 1px #c3c3c3;
+  }
+  .design-white-row {
+    display: block;
+  }
+  .design-white-row-box::after {
+    display: none;
+  }
+  .design-white-row .design-white-row-box:nth-child(1) {
+    width: auto;
+  }
+  .design-white-row .design-white-row-box:nth-child(2) {
+    width: auto;
+  }
+  .design-white-row .design-white-row-box:nth-child(3) {
+    width: auto;
+  }
+
+  .design-white-row .design-white-row-box:nth-child(4) {
+    width: auto;
+  }
+  .design-white-row-box {
+    border-bottom: solid 1px #333;
+  }
+  .enterprise-logo-part ul li {
+    font-size: 16px;
+  }
+  .enterprise-logo-part {
+    padding: 15px 20px 0px 20px;
+  }
+  .enterprise-stationary-part ul li {
+    font-size: 16px;
+  }
+  .enterprise-stationary-part {
+    padding: 15px 20px 0px 20px;
+  }
+  .enterprise-social-media-part ul li {
+    font-size: 16px;
+  }
+  .enterprise-social-media-part {
+    padding: 15px 20px 0px 20px;
+  }
+  .enterprise-price-content {
+    padding-bottom: 8px;
+    margin-top: 20px;
+  }
+  .enterprise-packages-section::before {
+    display: none;
+  }
+  .enterprise-column-part {
+    padding: 10px;
+  }
+  .testimonial-heading h1 {
+    font-size: 33px;
+  }
+  .testi-content {
+    margin-top: 20px;
+  }
+  .testimonial-btn a {
+    margin-left: 0px;
+  }
+  .footer-link {
+    margin-top: 30px;
+  }
+  .footer-link-contact {
+    margin-top: 30px;
+  }
+  .footer-link ul {
+    padding-left: 25px;
+  }
+  .footer-link-contact ul {
+    padding-left: 25px;
+  }
+  .footer-social-link {
+    padding-left: 25px;
+  }
+  .footer-section {
+    padding: 45px 0px 20px 0px;
+  }
+  .footer-logo {
+    margin-bottom: 20px;
+  }
+  .footer-copyright-row img {
+    margin-top: 35px;
+    margin-right: 55px;
+  }
+  .footer-copyright-row {
+    display: block;
+    padding-bottom: 85px;
+  }
+  .main-banner-section ul {
+    display: block;
+    margin-bottom: 0px;
+    padding-left: 25px;
+  }
+  .main-banner-section {
+    padding: 135px 0px 100px 0px;
+  }
+  .about-us-content {
+    padding: 0px;
+    padding-left: 25px;
+    padding-top: 20px;
+  }
+  .choose-us-heading h1 {
+    font-size: 48px;
+  }
+  .choose-us-box {
+    margin-bottom: 30px;
+  }
+  .web-design-section {
+    padding-top: 145px;
+  }
+  .web-design-section .form-dropdown {
+    display: none;
+  }
+  .web-design-section ul {
+    display: block;
+    margin-bottom: 0px;
+    padding-left: 25px;
+  }
+  .web-about-us-content {
+    padding: 0px;
+    padding-top: 40px;
+  }
+  .project-section-heading h1::before {
+    top: 155px;
+    left: 160px;
+  }
+  .design-heading h1 {
+    font-size: 42px;
+  }
+  .branding-design-section .form-dropdown {
+    display: none;
+  }
+  .branding-design-section {
+    padding-top: 145px;
+  }
+  .branding-design-section ul {
+    display: block;
+    padding-left: 25px;
+    margin-bottom: 0px;
+  }
+  .branding-design-section {
+    background: #006c90;
+  }
+  .testimonial-heading h1::before {
+    top: 112px;
+    left: 160px;
+  }
+  .app-design-section {
+    padding-top: 145px;
+  }
+  .app-design-section .form-dropdown {
+    display: none;
+  }
+  .app-design-section ul {
+    display: block;
+    padding-left: 25px;
+    margin-bottom: 0px;
+  }
+  .content-writing-section {
+    padding-top: 145px;
+  }
+  .content-writing-section .form-dropdown {
+    display: none;
+  }
+  .content-writing-section ul {
+    display: block;
+    padding-left: 25px;
+    margin-bottom: 0px;
+  }
+  .content-about-us-content {
+    padding: 25px;
+    padding-top: 40px;
+  }
+  .content-packages-heading h1 {
+    padding: 0px;
+  }
+  .content-packages-heading h1::before {
+    top: 115px;
+    left: 170px;
+  }
+  .content-packages-heading h1 {
+    font-size: 45px;
+  }
+  .portfolio-design-section {
+    padding-top: 145px;
+  }
+  .portfolio-design-section .form-dropdown {
+    display: none;
+  }
+  .testimonial-card-column-2 {
+    display: none;
+  }
+  .contact-heading h1::before {
+    top: 125px;
+    left: 155px;
+  }
+  .contact-heading h1 {
+    margin-bottom: 20px;
+  }
+  .contact-form {
+    border: solid 2px #004f66;
+    border-radius: 10px;
+    margin-top: 40px;
+  }
+  .contact-inner-section {
+    padding-top: 145px;
+  }
+  .pricing-card {
+    margin: 15px 10px;
+  }
+  .pricing-card-heading {
+    margin-left: -12px;
+    margin-top: -27px;
+    border-radius: 15px 15px 0% 0px;
+  }
+  .pricing-card-heading {
+    width: 307px;
+  }
+  .pricing-card-heading h5 {
+    font-size: 20px;
+  }
+  .enterprise-price-btn {
+    margin-top: -35px;
+    margin-left: -115px;
+  }
+  .inner-heading {
+    padding: 120px 0px 50px 0px;
+  }
+}
+
+/* MediaQuerry Max Width 786 PX */

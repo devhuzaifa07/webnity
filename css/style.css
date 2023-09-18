@@ -1,0 +1,1936 @@
+@font-face {
+  font-family: rosmatika;
+  src: url(../font/Rosmatika.ttf);
+}
+
+/* Header Section Css Start */
+
+.header-before ul {
+  display: flex;
+  list-style: none;
+  float: right;
+  /* margin-top: -5px; */
+  /* margin-right: 8px; */
+  margin-bottom: 5px;
+}
+
+.header-before ul li {
+  margin: 0px 0px 0px 0px;
+  margin-top: 15px;
+  border: solid 1px #ffffff;
+  padding: 10px;
+}
+
+.header-before ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  /* font-weight: 600; */
+  font-size: 14px;
+}
+
+.header-before ul li a:hover {
+  color: #51dcee;
+}
+
+/* .header-before ul li:first-child a {
+  color: #9b9b9b;
+} */
+
+.header-before ul li:first-child a:hover {
+  color: #51dcee;
+}
+
+.header-before ul li:nth-child(2) {
+  border-right: none;
+  border-left: none;
+}
+
+.header-before ul li:nth-child(2) a:hover {
+  color: #51dcee;
+}
+
+.header-before ul li a img {
+  margin-top: -4px;
+  margin-right: 2px;
+}
+
+/* Header Section Css End */
+
+/* Main Banner Section Css Start */
+
+.main-banner-section {
+  padding: 100px 0px;
+  background-image: url(../images/main-banner.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.main-banner-section .form-dropdown {
+  margin-top: -98px;
+  float: right;
+}
+
+.main-banner-section .form-dropdown:hover {
+  cursor: pointer;
+}
+
+.main-banner-section h1 {
+  font-size: 48px;
+  font-weight: 400;
+  font-family: rosmatika;
+  color: white;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.main-banner-section h1 span {
+  color: #51dcee;
+}
+
+.main-banner-section ul {
+  display: flex;
+  padding-left: 0px;
+}
+
+.main-banner-section ul li {
+  color: white;
+  list-style: none;
+  font-size: 21px;
+  margin-right: 80px;
+}
+
+.main-form {
+  width: 360px;
+  float: right;
+  margin-top: -50px;
+  margin-right: 0px;
+  background-color: #b2dadd;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.form-inner h5 {
+  font-size: 19px;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+
+.form-inner i {
+  float: right;
+  margin-right: 12px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.form-inner i:hover {
+  color: #10dddd;
+}
+
+.form-inner p {
+  font-size: 15px;
+  font-family: "Raleway";
+  font-weight: 600;
+}
+
+.form-inner input[type="text"] {
+  /* width: 305px; */
+  margin-bottom: 10px;
+  padding: 3px 10px;
+}
+
+.form-inner input[type="email"] {
+  /* width: 305px; */
+  padding: 3px 10px;
+  margin-bottom: 10px;
+}
+
+.form-btn {
+  padding: 6px 96px;
+  background-color: #3b3b3b;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  border: none;
+  margin-top: 25px;
+  border-radius: 2px;
+}
+
+.form-btn:hover {
+  background-color: #10dddd;
+}
+
+.fa-caret-right:before {
+  color: #51dcee;
+  margin-right: 15px;
+}
+
+.main-banner-btn a {
+  color: white;
+  text-decoration: none;
+  background-color: #3f5b77;
+  padding: 14px 20px;
+  font-size: 28px;
+  font-weight: 600;
+  clip-path: polygon(0 -300%, 100% 0, 93% 191%, 0 98%);
+}
+
+.main-banner-btn a:hover {
+  background: radial-gradient(circle, rgb(93 136 171) 0%, rgb(3 68 90) 90%);
+}
+
+.main-banner-btn a img {
+  margin-left: 25px;
+}
+
+/* Main Banner Section Css End */
+
+/* Main Banner Bottom Section Css Start */
+
+.main-baner-bottom-section {
+  background-color: #151f2e;
+  color: white;
+}
+
+.main-baner-bottom-section ul {
+  display: flex;
+}
+
+.bottom-box {
+  display: flex;
+  padding: 20px 15px;
+  border-right: solid 1px #62788a;
+}
+
+.bottom-box:hover {
+  background-color: #10dddd;
+}
+
+.bottom-box:hover img {
+  color: white;
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+.bottom-box:nth-child(1) {
+  border-left: solid 1px #62788a;
+}
+
+.bottom-box-img img {
+  margin-left: 20px;
+}
+
+.bottom-box-content {
+  margin: 0px 10px;
+  margin-left: 20px;
+}
+
+.main-baner-bottom-section ul li {
+  list-style: none;
+}
+
+/* Main Banner Bottom Section Css End */
+
+/* Main Banner Another Bottom Section Css Start */
+
+.another-main-bottom {
+  background-color: white;
+  margin-top: -16px;
+  /* border-bottom: solid 1px #62788a; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.another-main-boxes {
+  display: flex;
+}
+
+.another-main-bottom-box {
+  width: 270px;
+  text-align: center;
+  padding: 30px 7px 10px 7px;
+}
+
+.another-main-bottom-box h2 {
+  font-family: cursive;
+}
+
+.another-main-bottom-box:hover h2 {
+  color: #10dddd;
+}
+
+.another-main-bottom-box:nth-child(1) {
+  text-align: left;
+  border-left: solid 1px #62788a;
+  border-right: solid 1px #62788a;
+  width: 384px;
+  padding-left: 25px;
+  margin-left: 32px;
+}
+
+/* Main Banner Another Bottom Section Css End */
+
+/* About Us Section Css Start */
+
+.about-us-section {
+  padding: 100px 0px;
+}
+
+.about-us-content {
+  padding: 25px;
+  padding-right: 60px;
+}
+
+.about-us-content h2 {
+  font-size: 52px;
+  font-family: rosmatika;
+}
+
+.about-us-content h2 span {
+  color: #51dcee;
+}
+
+.about-us-content h6 {
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.about-us-content p {
+  padding-left: 65px;
+  margin-top: 35px;
+  position: relative;
+}
+
+.about-us-content p::before {
+  content: url(../images/tree.png);
+  position: absolute;
+  left: -49px;
+  top: -13px;
+}
+
+/* About Us Section Css End */
+
+/* Why Choose Us Section Css Start */
+
+.choose-us-section {
+  padding: 100px 0px;
+  background-color: #e9e9e9;
+}
+
+.choose-us-heading {
+  text-align: center;
+}
+
+.choose-us-heading h1 {
+  font-family: rosmatika;
+  font-size: 52px;
+  margin-bottom: 45px;
+}
+
+.choose-us-heading h1 span {
+  color: #51dcee;
+}
+
+.choose-us-box {
+  text-align: center;
+  padding: 15px 25px;
+}
+
+.choose-us-box h4 {
+  margin: 15px 0px;
+  color: #3f3f3f;
+}
+
+.choose-us-box p {
+  line-height: 2;
+}
+
+.choose-us-btn {
+  margin-top: 40px;
+}
+
+.choose-us-btn a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 19px;
+  background-color: aqua;
+  font-weight: 500;
+}
+
+.choose-us-btn a:hover {
+  color: white;
+  /* background-color: #486e95; */
+  background: rgb(0, 48, 64);
+  background: radial-gradient(circle, rgb(93 136 171) 0%, rgb(3 68 90) 90%);
+}
+
+/* .choose-us-img img {
+  background-color: aquamarine;
+  padding: 24px;
+  border-radius: 50%;
+} */
+
+/* Why Choose Us Section Css End */
+
+/* Project Section Css Start */
+
+.project-section {
+  padding: 100px 0px;
+}
+
+.project-section-heading {
+  text-align: center;
+}
+
+.project-section-heading h1 {
+  font-family: rosmatika;
+  font-size: 50px;
+  position: relative;
+}
+
+.project-section-heading h1::before {
+  content: "";
+  position: absolute;
+  width: 55px;
+  height: 4px;
+  background-color: #51dcee;
+  top: 112px;
+  left: 600px;
+}
+
+.project-section-heading h1 span {
+  color: #51dcee;
+}
+
+.project-row {
+  margin-top: 30px;
+}
+
+.project-card {
+  margin-top: 40px;
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.project-btn {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.project-btn a {
+  text-decoration: none;
+  color: black;
+  padding: 13px 19px;
+  background-color: aqua;
+  font-weight: 500;
+}
+
+.project-btn a:hover {
+  color: white;
+  /* background-color: #486e95; */
+  background: rgb(0, 48, 64);
+  background: radial-gradient(circle, rgb(93 136 171) 0%, rgb(3 68 90) 90%);
+}
+
+/* Project Section Css End */
+
+/* Packages Section Css Start */
+
+.packages-section {
+  padding: 100px 0px;
+  /* background-color: aqua; */
+}
+
+.packages-heading {
+  text-align: center;
+}
+
+.packages-heading h1 {
+  font-family: rosmatika;
+  font-size: 50px;
+  position: relative;
+  padding: 0px 90px;
+}
+
+.packages-heading h1 span {
+  color: #51dcee;
+}
+
+.packages-heading h1::before {
+  content: "";
+  position: absolute;
+  width: 55px;
+  height: 4px;
+  background-color: #51dcee;
+  top: 130px;
+  left: 620px;
+}
+
+section.packages-section .tab {
+  overflow: hidden;
+  padding-left: 80px;
+  margin-top: 28px;
+  margin-left: 135px;
+  margin-top: 40px;
+}
+
+/* Style the buttons inside the tab */
+section.packages-section .tab button {
+  background-color: #00ffff;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 12px 30px;
+  transition: 0.3s;
+  font-size: 17px;
+  border-bottom: solid 2px transparent;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  margin-left: 25px;
+  border: solid 2px #fff;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+/* Change background color of buttons on hover */
+section.packages-section .tab button:hover {
+  background: rgb(0, 48, 64);
+  background: radial-gradient(circle, rgb(93 136 171) 0%, rgb(3 68 90) 90%);
+  color: white;
+}
+
+/* Create an active/current tablink class */
+section.packages-section .tab button.active {
+  /* border: solid 2px #fff; */
+  background: radial-gradient(circle, rgb(93 136 171) 0%, rgb(3 68 90) 90%);
+  border-radius: 10px;
+  color: white;
+}
+
+/* Style the tab content */
+section.packages-section .tabcontent {
+  margin-top: 0px;
+  display: none;
+  padding: 6px 12px;
+}
+
+.pricing-card {
+  /* background-image: url(../images/pricing-card.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; */
+  color: rgb(0, 0, 0);
+  padding: 25px;
+  border-radius: 15px;
+  padding-bottom: 12px;
+  margin: 15px;
+  border: solid 2px transparent;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  background-color: white;
+}
+
+.pricing-card:hover {
+  /* border: solid 2px #be49f0; */
+  transform: scale(1.02);
+}
+
+.pricing-card-heading {
+  text-align: center;
+}
+
+/* .pricing-card-heading h5 {
+  padding: 11px 18px;
+  border: solid 2px #fff;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 65px;
+  font-size: 17px;
+} */
+
+.pricing-card-heading {
+  background-color: #00ffff;
+  color: #000000;
+  width: 394px;
+  margin-left: -27px;
+  padding: 30px 0px;
+  margin-top: -25px;
+  border-radius: 15px 15px 0px 0px;
+  justify-content: center;
+  display: flex;
+}
+
+.pricing-card-heading img {
+  height: 43px;
+}
+
+.pricing-card-heading h5 {
+  font-size: 25px;
+  margin-left: 10px;
+  font-weight: 700;
+}
+
+.pricing-card-amount span {
+  color: #9d9d9d;
+  font-size: 38px;
+  font-family: "rosmatika";
+  margin-right: 5px;
+  margin-top: 5px;
+  color: #00ffff;
+}
+
+/* .pricing-card-heading h1 {
+  font-size: 60px;
+  font-weight: 800;
+}
+.pricing-card-heading h6 {
+  font-size: 23px;
+} */
+
+.pricing-card-amount {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.pricing-card-amount h1 {
+  font-size: 49px;
+  font-weight: 800;
+}
+
+.pricing-card-amount h2 {
+  font-size: 58px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  color: #17e3e3;
+  margin-top: 20px;
+}
+
+.pricing-card-amount h2 p {
+  color: #919191;
+  font-weight: 500;
+  font-size: 19px;
+  margin-top: 5px;
+  margin-left: 5px;
+  position: relative;
+}
+
+.pricing-card-amount h2 p::before {
+  content: "";
+  position: absolute;
+  width: 27px;
+  height: 2px;
+  background-color: #00ffff;
+  transform: rotate(14deg);
+  margin-top: 13px;
+  margin-left: 5px;
+}
+
+.pricing-card-amount h6 {
+  font-size: 23px;
+}
+
+.pricing-content {
+  margin-top: 50px;
+}
+
+.pricing-card-content {
+  margin-top: 40px;
+}
+
+.pricing-card-content h4 {
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+.pricing-card-content ul {
+  list-style: none;
+  padding-left: 5px;
+  overflow-y: scroll;
+  overflow-x: auto;
+  height: 235px;
+}
+
+.pricing-card-content ul::-webkit-scrollbar-track {
+  background-color: #e0ffff;
+}
+
+.pricing-card-content ul::-webkit-scrollbar {
+  width: 7px;
+  float: left;
+}
+
+.pricing-card-content ul::-webkit-scrollbar-thumb {
+  background-color: #00ffff;
+}
+
+.pricing-card-content ul li {
+  font-size: 17px;
+  padding-bottom: 8px;
+}
+
+.pricing-card-content ul li i {
+  color: #00ffff;
+  margin-right: 15px;
+  font-size: 22px;
+}
+
+.pricing-btn {
+  text-align: center;
+  padding: 45px 0px 30px 0px;
+}
+
+.pricing-btn a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  background-color: #00ffff;
+  padding: 12px 96px;
+  border-radius: 10px;
+  /* border: solid 3px #fff; */
+}
+
+.pricing-btn a:hover {
+  background-color: white;
+  color: #000000;
+  border: solid 1px #00ffff;
+}
+
+/* Packages Section Css End */
+
+/* Design Features Section Css Start */
+
+.design-section {
+  padding: 100px 0px;
+  background-color: #ebebeb;
+}
+
+.design-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.design-heading h1 {
+  font-family: rosmatika;
+  font-size: 49px;
+}
+
+.design-heading h1 span {
+  color: #17e3e3;
+}
+
+.design-feature-row {
+  display: flex;
+  margin-top: 45px;
+}
+
+.design-feature-row .design-box:last-child {
+  border-right: none;
+}
+
+.design-box {
+  text-align: center;
+  padding: 8px 25px;
+  border-right: solid 2px #c3c3c3;
+}
+
+.design-box img {
+  margin-bottom: 15px;
+}
+
+.design-white-row {
+  display: flex;
+  background-color: white;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.design-white-row-box {
+  display: flex;
+  padding: 15px 40px;
+  position: relative;
+}
+
+.design-white-row-box::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 55px;
+  background-color: #bfbfbf;
+  transform: rotate(25deg);
+  right: 8px;
+  top: 15px;
+}
+
+/* .desing-white-row .design-white-row-box::after :last-child {
+  width: 0px;
+  height: 0px;
+  display: none;
+} */
+
+.design-white-row-box img {
+  height: 55px;
+  margin-right: 30px;
+}
+
+.design-white-row-box p {
+  margin-bottom: 3px;
+}
+
+.design-white-row .design-white-row-box:nth-child(2) {
+  width: 315px;
+}
+
+.design-white-row .design-white-row-box:nth-child(3) {
+  width: 266px;
+}
+
+.design-white-row .design-white-row-box:nth-child(3) {
+  width: 265px;
+}
+
+.design-white-row .design-white-row-box:nth-child(4)::after {
+  display: none;
+}
+
+.design-white-row-box a {
+  text-decoration: none;
+  color: black;
+}
+
+.enterprise-packages-section {
+  /* background-color: #426784; */
+  padding: 25px 0px;
+  margin-top: 65px;
+  color: white;
+  position: relative;
+  background: rgb(66, 103, 132);
+  background: radial-gradient(
+    circle,
+    rgb(82 124 157) 0%,
+    rgba(0, 48, 64, 1) 90%
+  );
+  background: radial-gradient(circle, rgb(93 136 171) 0%, rgb(3 68 90) 90%);
+}
+
+.enterprise-packages-section::before {
+  content: url(../images/enterprise-corner-design.png);
+  position: absolute;
+  top: 0px;
+  left: -1px;
+}
+
+.enterprise-packages-heading {
+  text-align: center;
+}
+
+.enterprise-packages-heading h1 {
+  font-family: rosmatika;
+  padding-bottom: 8px;
+  font-size: 35px;
+}
+
+.enterprise-packages-heading h1 span {
+  color: #51dcee;
+}
+
+.enterprise-packages-heading h4 {
+  background-color: #253a4c;
+  border-top: solid 4px #2df8ff;
+  border-bottom: solid 4px #2df8ff;
+  font-family: rosmatika;
+  padding: 14px 0px 8px 0px;
+  font-size: 34px;
+}
+
+.enterprise-packages-heading h4 span {
+  color: #51dcee;
+}
+
+.enterprise-packages-section ul li i {
+  color: #00ffff;
+}
+
+.enterprise-column-part {
+  padding: 25px;
+  padding-bottom: 0px;
+}
+
+.enterprise-logo-part {
+  text-align: center;
+  padding: 15px 30px 0px 30px;
+}
+
+.enterprise-logo-part h2 {
+  font-family: rosmatika;
+  border-bottom: solid 2px #30a5b4;
+  padding-bottom: 8px;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.enterprise-logo-part ul {
+  padding-left: 0px;
+}
+
+.enterprise-logo-part ul li {
+  border-bottom: solid 2px #30a5b4;
+  padding: 8px 0px 5px 0px;
+  list-style: none;
+  text-align: left;
+}
+
+.enterprise-logo-part h2 span {
+  color: #51dcee;
+}
+
+.enterprise-stationary-part {
+  text-align: center;
+  padding: 15px 30px 0px 30px;
+}
+
+.enterprise-stationary-part h2 {
+  font-family: rosmatika;
+  border-bottom: solid 2px #30a5b4;
+  padding-bottom: 8px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.enterprise-stationary-part ul {
+  padding-left: 0px;
+}
+
+.enterprise-stationary-part ul li {
+  border-bottom: solid 2px #30a5b4;
+  padding: 8px 0px 5px 0px;
+  list-style: none;
+  text-align: left;
+}
+
+.enterprise-stationary-part h2 span {
+  color: #51dcee;
+}
+
+.enterprise-social-media-part {
+  text-align: center;
+  padding: 15px 30px 0px 30px;
+}
+
+.enterprise-social-media-part h2 {
+  font-family: rosmatika;
+  border-bottom: solid 2px #30a5b4;
+  padding-bottom: 8px;
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 29px;
+}
+
+.enterprise-social-media-part ul {
+  padding-left: 0px;
+}
+
+.enterprise-social-media-part ul li {
+  border-bottom: solid 2px #30a5b4;
+  padding: 8px 0px 5px 0px;
+  list-style: none;
+  text-align: left;
+}
+
+.enterprise-social-media-part h2 span {
+  color: #51dcee;
+}
+
+.enterprise-price-part {
+  margin-top: 45px;
+}
+
+.enterprise-price-content {
+  padding: 50px;
+  padding-top: 10px;
+}
+
+.enterprise-price-part h3 {
+  font-family: rosmatika;
+  text-align: right;
+  font-size: 38px;
+  position: relative;
+}
+
+.enterprise-price-part h3::before {
+  content: "";
+  position: absolute;
+  width: 119px;
+  height: 2px;
+  background-color: white;
+  top: 20px;
+  right: 3px;
+}
+
+.enterprise-price-part h1 {
+  font-family: rosmatika;
+  text-align: right;
+  font-size: 62px;
+}
+
+.enterprise-price-part p {
+  font-family: rosmatika;
+  text-align: right;
+  color: #00ffff;
+  font-size: 21px;
+}
+
+.enterprise-price-btn {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.enterprise-price-btn a {
+  text-decoration: none;
+  color: black;
+  font-family: rosmatika;
+  background-color: #00ffff;
+  padding: 13px 25px;
+  font-size: 24px;
+  border-radius: 8px;
+}
+
+.enterprise-price-btn a:hover {
+  background: radial-gradient(circle, rgb(93 136 171) 0%, rgb(3 68 90) 90%);
+  color: white;
+}
+
+.enterprise-price-img {
+  text-align: center;
+  margin-top: 45px;
+}
+
+.enterprise-price-img img {
+  width: 300px;
+}
+
+/* Design Features Section Css End */
+
+/* Testimonial Section Css Start */
+
+.testimonial-section {
+  padding: 100px 0px;
+}
+
+.testimonial-heading {
+  text-align: center;
+}
+
+.testimonial-heading h1 {
+  font-family: rosmatika;
+  font-size: 50px;
+  position: relative;
+}
+
+.testimonial-heading h1 span {
+  color: #17e3e3;
+}
+
+.testimonial-heading h1::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 4px;
+  background-color: #51dcee;
+  top: 108px;
+  left: 597px;
+}
+
+.testi-card {
+  padding: 30px 20px;
+  border-radius: 10px;
+  margin: 15px;
+  margin-top: 55px;
+  box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px;
+}
+
+.testi-card:hover {
+  background: radial-gradient(circle, rgb(93 136 171) 0%, rgb(3 68 90) 90%);
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
+
+.testi-card:hover p {
+  color: white;
+}
+
+.testi-card:hover h6 {
+  color: white;
+}
+
+.testi-card .stars img {
+  width: 13px;
+  margin-top: 5px;
+}
+
+.testi-card h6 {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #646464;
+}
+
+.testi-card p {
+  color: #646464;
+}
+
+.testi-card .stars {
+  margin-top: -10px;
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.testimonial-btn {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.testimonial-btn a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  background-color: #00ffff;
+  padding: 12px 22px;
+  border-radius: 5px;
+  margin-left: 40px;
+}
+
+.testimonial-btn a:hover {
+  background: radial-gradient(circle, rgb(93 136 171) 0%, rgb(3 68 90) 90%);
+}
+
+.slick-dots li button:before {
+  font-size: 18px !important;
+}
+
+.slick-dots {
+  margin-bottom: -30px !important;
+}
+
+/* Testimonial Section Css End */
+
+/* Footer Section Css Start */
+
+.footer-section {
+  padding: 100px 0px 20px 0px;
+  background: rgb(66, 103, 132);
+  background: radial-gradient(circle, rgb(93 136 171) 0%, rgb(3 68 90) 90%);
+  color: white;
+}
+
+.footer-logo img {
+  width: 235px;
+}
+
+.footer-link h3 {
+  font-family: rosmatika;
+  margin-bottom: 25px;
+}
+
+.footer-link ul {
+  padding-left: 0px;
+}
+
+.footer-link ul li {
+  list-style: none;
+  margin-bottom: 8px;
+}
+
+.footer-link ul li i {
+  color: #00ffff;
+}
+
+.footer-link ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-link ul li a:hover {
+  color: #10dddd;
+}
+
+.footer-link-contact h3 {
+  font-family: rosmatika;
+  margin-bottom: 25px;
+}
+
+.footer-link-contact ul {
+  padding-left: 0px;
+}
+
+.footer-link-contact li {
+  margin-bottom: 8px;
+  list-style: none;
+}
+
+.footer-link-contact li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-link-contact ul li a:hover {
+  color: #10dddd;
+}
+
+.footer-link-contact li a i {
+  color: #00ffff;
+  margin-right: 5px;
+}
+
+.footer-social-link i {
+  color: #ffffff;
+  font-weight: 400;
+  background-color: grey;
+  padding: 5px 7px;
+  margin-right: 4px;
+}
+
+.footer-social-link i:hover {
+  background-color: #09dddd;
+  transform: scale(1.1);
+}
+
+.footer-social-link img:hover {
+  background-color: #09dddd;
+  transform: scale(1.1);
+}
+
+.footer-social-link img {
+  font-weight: 400;
+  background-color: grey;
+  padding: 5px 7px 4px 7px;
+  margin-right: 4px;
+  margin-top: -4px;
+}
+
+.footer-copyright-row {
+  background-color: #253a4c;
+}
+
+.footer-copyright-row {
+  display: flex;
+  padding: 20px 0px;
+  margin-top: 50px;
+}
+
+.footer-copyright-row p {
+  margin-bottom: -30px;
+  font-family: sans-serif;
+}
+
+.footer-copyright-row img {
+  float: right;
+  margin-left: auto;
+}
+
+.footer-bottom-content {
+  padding: 65px 0px;
+}
+
+.footer-bottom-content h3 {
+  font-family: rosmatika;
+}
+
+/* Footer Section Css End */
+
+/* Logo Design Inner Page Section Css Start */
+
+.logo-design-section {
+  padding: 100px 0px;
+  background-image: url(../images/logo-design.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.logo-design-section .form-dropdown {
+  margin-top: -98px;
+  float: right;
+}
+
+.logo-design-section .form-dropdown:hover {
+  cursor: pointer;
+}
+
+.logo-design-section h1 {
+  font-size: 48px;
+  font-weight: 400;
+  font-family: rosmatika;
+  color: white;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.logo-design-section h1 span {
+  color: #51dcee;
+}
+
+.logo-design-section ul {
+  display: flex;
+  padding-left: 0px;
+}
+
+.logo-design-section ul li {
+  color: white;
+  list-style: none;
+  font-size: 21px;
+  margin-right: 80px;
+}
+
+.logo-about-us-content {
+  padding: 25px;
+  padding-right: 60px;
+}
+
+.logo-about-us-content h2 {
+  font-size: 52px;
+  font-family: rosmatika;
+}
+
+.logo-about-us-content h2 span {
+  color: #51dcee;
+}
+
+.logo-about-us-content h6 {
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.logo-about-us-content p {
+  padding-left: 65px;
+  margin-top: 35px;
+  position: relative;
+}
+
+.logo-about-us-content p::before {
+  content: url(../images/tree.png);
+  position: absolute;
+  left: -49px;
+  top: -13px;
+  display: none;
+}
+
+.logo-project-section {
+  background-color: rgb(104, 58, 58);
+}
+
+.logo-project-section {
+  padding: 100px 0px;
+  background-color: rgb(236, 236, 236);
+}
+
+.logo-project-section-heading {
+  text-align: center;
+}
+
+.logo-project-section-heading h1 {
+  font-family: rosmatika;
+  font-size: 50px;
+  position: relative;
+}
+
+.logo-project-section-heading h1::before {
+  content: "";
+  position: absolute;
+  width: 55px;
+  height: 4px;
+  background-color: #51dcee;
+  top: 112px;
+  left: 600px;
+}
+
+.logo-project-section-heading h1 span {
+  color: #51dcee;
+}
+
+/* Logo Design Inner Page Section Css End */
+
+/* Website Design Inner Page Section Css Start */
+
+.web-design-section {
+  padding: 100px 0px;
+  background-image: url(../images/web-design.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.web-design-section .form-dropdown {
+  margin-top: -98px;
+  float: right;
+}
+
+.web-design-section .form-dropdown:hover {
+  cursor: pointer;
+}
+
+.web-design-section h1 {
+  font-size: 48px;
+  font-weight: 400;
+  font-family: rosmatika;
+  color: white;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.web-design-section h1 span {
+  color: #51dcee;
+}
+
+.web-design-section ul {
+  display: flex;
+  padding-left: 0px;
+}
+
+.web-design-section ul li {
+  color: white;
+  list-style: none;
+  font-size: 21px;
+  margin-right: 80px;
+}
+
+.web-about-us-content {
+  padding: 25px;
+  padding-right: 60px;
+}
+
+.web-about-us-content h2 {
+  font-size: 52px;
+  font-family: rosmatika;
+}
+
+.web-about-us-content h2 span {
+  color: #51dcee;
+}
+
+.web-about-us-content h6 {
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.web-about-us-content p {
+  padding-left: 65px;
+  margin-top: 35px;
+  position: relative;
+}
+
+.web-about-us-content p::before {
+  content: url(../images/tree.png);
+  position: absolute;
+  left: -49px;
+  top: -13px;
+  display: none;
+}
+
+/* Website Design Inner Page Section Css End */
+
+/* Branding Design Inner Page Section Css Start */
+
+.branding-design-section {
+  padding: 100px 0px;
+  background-image: url(../images/branding.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.branding-design-section .form-dropdown {
+  margin-top: -98px;
+  float: right;
+}
+
+.branding-design-section .form-dropdown:hover {
+  cursor: pointer;
+}
+
+.branding-design-section h1 {
+  font-size: 48px;
+  font-weight: 400;
+  font-family: rosmatika;
+  color: white;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.branding-design-section h1 span {
+  color: #51dcee;
+}
+
+.branding-design-section ul {
+  display: flex;
+  padding-left: 0px;
+}
+
+.branding-design-section ul li {
+  color: white;
+  list-style: none;
+  font-size: 21px;
+  margin-right: 80px;
+}
+
+/* Branding Design Inner Page Section Css End */
+
+/* Mobile App Design Inner Page Section Css Start */
+
+.app-design-section {
+  padding: 100px 0px;
+  background-image: url(../images/app.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.app-design-section .form-dropdown {
+  margin-top: -98px;
+  float: right;
+}
+
+.app-design-section .form-dropdown:hover {
+  cursor: pointer;
+}
+
+.app-design-section h1 {
+  font-size: 48px;
+  font-weight: 400;
+  font-family: rosmatika;
+  color: white;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.app-design-section h1 span {
+  color: #51dcee;
+}
+
+.app-design-section ul {
+  display: flex;
+  padding-left: 0px;
+}
+
+.app-design-section ul li {
+  color: white;
+  list-style: none;
+  font-size: 21px;
+  margin-right: 80px;
+}
+
+.app-about-us-img {
+  text-align: right;
+}
+
+/* Mobile App Design Inner Page Section Css End */
+
+/* Content Writing Inner Page Section Css Start */
+
+.content-writing-section {
+  padding: 100px 0px;
+  background-image: url(../images/content-writing.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.content-writing-section .form-dropdown {
+  margin-top: -98px;
+  float: right;
+}
+
+.content-writing-section .form-dropdown:hover {
+  cursor: pointer;
+}
+
+.content-writing-section h1 {
+  font-size: 48px;
+  font-weight: 400;
+  font-family: rosmatika;
+  color: white;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.content-writing-section h1 span {
+  color: #51dcee;
+}
+
+.content-writing-section ul {
+  display: flex;
+  padding-left: 0px;
+}
+
+.content-writing-section ul li {
+  color: white;
+  list-style: none;
+  font-size: 21px;
+  margin-right: 80px;
+}
+
+.content-about-us-img {
+  float: right;
+}
+
+.content-about-us-content {
+  padding: 25px;
+  padding-right: 60px;
+}
+
+.content-about-us-content h2 {
+  font-size: 52px;
+  font-family: rosmatika;
+}
+
+.content-about-us-content h2 span {
+  color: #51dcee;
+}
+
+.content-about-us-content h6 {
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.content-about-us-content h5 {
+  margin-top: 30px;
+  font-weight: 700;
+}
+
+.content-about-us-content p::before {
+  content: url(../images/tree.png);
+  position: absolute;
+  left: -49px;
+  top: -13px;
+  display: none;
+}
+
+.content-packages-heading {
+  text-align: center;
+}
+
+.content-packages-heading h1 {
+  font-family: rosmatika;
+  font-size: 50px;
+  position: relative;
+  padding: 0px 90px;
+}
+
+.content-packages-heading h1 span {
+  color: #51dcee;
+}
+
+.content-packages-heading h1::before {
+  content: "";
+  position: absolute;
+  width: 55px;
+  height: 4px;
+  background-color: #51dcee;
+  top: 70px;
+  left: 590px;
+}
+
+/* Content Writing Inner Page Section Css End */
+
+/* Portfolio Design Inner Page Section Css Start */
+
+.portfolio-design-section {
+  padding: 100px 0px;
+  background-image: url(../images/portfolio-design.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.portfolio-design-section .form-dropdown {
+  margin-top: -98px;
+  float: right;
+}
+
+.portfolio-design-section .form-dropdown:hover {
+  cursor: pointer;
+}
+
+.portfolio-design-section h1 {
+  font-size: 48px;
+  font-weight: 400;
+  font-family: rosmatika;
+  color: white;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.portfolio-design-section h1 span {
+  color: #51dcee;
+}
+
+.portfolio-design-section ul {
+  display: flex;
+  padding-left: 0px;
+}
+
+.portfolio-design-section ul li {
+  color: white;
+  list-style: none;
+  font-size: 21px;
+  margin-right: 80px;
+}
+
+/* Portfolio Design Inner Page Section Css End */
+
+/* Review Inner Page Section Css Start */
+
+.review-section {
+  padding: 100px 0px;
+  background-image: url(../images/review-banner.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.review-section .form-dropdown {
+  margin-top: -98px;
+  float: right;
+}
+
+.review-section .form-dropdown:hover {
+  cursor: pointer;
+}
+
+.review-section h1 {
+  font-size: 48px;
+  font-weight: 400;
+  font-family: rosmatika;
+  color: white;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.review-section h1 span {
+  color: #51dcee;
+}
+
+.review-section ul {
+  display: flex;
+  padding-left: 0px;
+}
+
+.review-section ul li {
+  color: white;
+  list-style: none;
+  font-size: 21px;
+  margin-right: 80px;
+}
+
+.testimonial-both-col {
+  display: flex;
+}
+
+.testimonial-card-column-2 {
+  margin-top: 60px;
+}
+
+.testimonial-section .tab {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.testimonial-section .tab button {
+  background-color: #00fcff;
+  border: none;
+  padding: 10px 23px;
+  border-radius: 50%;
+  margin-right: 8px;
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.testimonial-section .tab button:hover {
+  background: radial-gradient(circle, rgb(93 136 171) 0%, rgb(3 68 90) 90%);
+  color: white;
+}
+
+/* Create an active/current tablink class */
+section.testimonial-section .tab button.active {
+  /* border: solid 2px #fff; */
+  background: radial-gradient(circle, rgb(93 136 171) 0%, rgb(3 68 90) 90%);
+  border-radius: 50%;
+  color: white;
+}
+
+/* Style the tab content */
+section.testimonial-section .tabcontent {
+  margin-top: 0px;
+  display: none;
+  padding: 6px 12px;
+}
+
+/* Review Inner Page Section Css End */
+
+/* Contact Inner Page Section Css Start */
+
+.contact-inner-section {
+  padding: 100px 0px;
+}
+
+.contact-heading {
+  text-align: center;
+  /* margin-bottom: 50px; */
+  padding: 100px 0px 30px;
+  border-bottom: solid 5px #2df8ff;
+}
+
+.contact-heading h1 {
+  font-family: rosmatika;
+  font-size: 52px;
+  position: relative;
+}
+
+.contact-heading h1 span {
+  color: #10dddd;
+}
+
+.contact-details {
+  padding: 2px;
+}
+
+.contact-details h5 {
+  font-weight: 700;
+}
+
+.contact-details p {
+  border-bottom: solid 1px #333;
+  padding-left: 25px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  color: #858585;
+}
+
+.contact-detail-box a {
+  text-decoration: none;
+}
+
+.contact-detail-box img {
+  margin-right: 8px;
+}
+
+.contact-details-1 {
+  padding: 2px;
+}
+
+.contact-details-1 h5 {
+  font-weight: 700;
+}
+
+.contact-details-1 p {
+  border-bottom: solid 1px #333;
+  padding-left: 0px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  color: #858585;
+}
+
+.contact-detail-box-1 a {
+  text-decoration: none;
+}
+
+.contact-details-2 {
+  padding: 2px;
+}
+
+.contact-details-2 h5 {
+  font-weight: 700;
+}
+
+.contact-details-2 p {
+  border-bottom: solid 1px #333;
+  padding-left: 0px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  color: #858585;
+}
+
+.contact-detail-box-2 a {
+  text-decoration: none;
+}
+
+.contact-detail-box-2 a i {
+  color: white;
+  background-color: #213a54;
+  padding: 13px 15px;
+  border-radius: 50%;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+.contact-detail-box-2 a img {
+  color: white;
+  background-color: #213a54;
+  padding: 13px 15px;
+  border-radius: 50%;
+}
+
+.contact-form {
+  padding: 25px;
+}
+
+.contact-form h3 {
+  margin-bottom: 23px;
+}
+
+.contact-form .form-control {
+  margin-bottom: 20px;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.1rem rgb(13 110 253 / 25%);
+}
+
+.contact-form .sub-btn {
+  padding: 11px 47px;
+  border-color: aqua;
+  background-color: aqua;
+  border-radius: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  font-weight: 700;
+}
+
+.contact-form .sub-btn:hover {
+  background-color: aliceblue;
+}
+
+/* .contact-heading h1::before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 4px;
+  background-color: #51dcee;
+  top: 155px;
+  left: 395px;
+} */
+
+/* Contact Inner Page Section Css End */
+
+/* Inner Page Css Start */
+
+.inner-heading {
+  padding: 100px 0px;
+  background: radial-gradient(circle, rgb(93 136 171) 0%, rgb(3 68 90) 90%);
+  text-align: center;
+  border-bottom: solid 5px #2df8ff;
+}
+
+.inner-heading h1 {
+  color: white;
+}
+
+.inner-content {
+  padding: 50px 0px 70px 0px;
+}
+
+/* Inner Page Css End */
